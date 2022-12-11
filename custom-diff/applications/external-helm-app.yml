@@ -7,6 +7,8 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
+  
+  ignoreDifferences:
 
   source:
     repoURL: https://github.com/diegomarquessilva/gitops-cert-level-2-examples.git
